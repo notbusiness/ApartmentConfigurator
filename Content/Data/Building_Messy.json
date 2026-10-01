@@ -1,0 +1,29 @@
+{
+  "building": "Тест: битые поля (файл загружается, ошибки исправляются)",
+  "floors": [
+    {
+      "name": "Этаж без номера",
+      "apartments": [
+        { "status": "Свободно", "area": 40, "focusPoint": { "x": -445, "y": -200, "z": 165 } },
+        { "id": "A-2", "status": 1, "area": -15 },
+        { "id": "A-3", "status": "Забронировано", "area": "сорок", "focusPoint": [1, 2] },
+        "это не объект",
+        null,
+        { "id": "A-3", "status": "Продано", "area": 55.5, "focusPoint": { "x": "abc", "y": 0, "z": 0 } }
+      ]
+    },
+    42,
+    {
+      "number": "2",
+      "apartments": "не массив"
+    },
+    {
+      "number": 3,
+      "name": null,
+      "apartments": [
+        { "id": "301", "status": "Свободно", "area": 1e400, "focusPoint": { "x": 1e12, "y": 0, "z": 805 } },
+        { "id": "302", "status": "  продано  ", "area": 48.0 }
+      ]
+    }
+  ]
+}
